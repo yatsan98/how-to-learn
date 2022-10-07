@@ -346,5 +346,5 @@
 } 
 
 .logo__place_footer {
-  background-image: url('../images/logo_place_footer.svg');
+  background-image: url("../images/logo_place_footer.svg");
 }
