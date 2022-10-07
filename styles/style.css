@@ -267,11 +267,11 @@
 .kaufman__triangle {
   position: absolute;
   top: 0;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   right: -210px;
   width: 877px; 
   height: 877px;
-  background-image: url('../images/kaufman-triangle.svg');
-  background-size: cover;
   z-index: 0;
 }
 
@@ -346,5 +346,5 @@
 } 
 
 .logo__place_footer {
-  background-image: url("../images/logo_place_footer.svg");
+  background-image: url('../images/logo_place_footer.svg');
 }
