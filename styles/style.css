@@ -10,27 +10,13 @@
 }
 
 .header {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   position: relative;
   display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .header__title {
@@ -269,7 +255,7 @@
   background-image: url("../images/kaufman-triangle.svg");
   background-size: cover;
   right: -210px;
-  width: 877px; 
+  width: 877px;
   height: 877px;
   z-index: 0;
 }
