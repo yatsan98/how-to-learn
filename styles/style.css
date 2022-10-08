@@ -39,6 +39,7 @@
   position: absolute;
   bottom: 30px;
   z-index: 3;
+  margin: 0;
 }
 
 .logo {
