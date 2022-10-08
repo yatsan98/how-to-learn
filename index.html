@@ -3,25 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
   <title>Научиться учиться</title>
-  </head>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+</head>
 <body>
   <div class="page">
     <!-- Блок header -->
     <header class="header">
       <div class="logo logo_place_header"></div>
-        <h1 class="header__title">Научиться учиться</h1>
-        <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-          <a class="header__link link" href="#"> Узнать&#8594</a>
-        </p>
-        <img class="header__main-illustration" src="images/header-image.png" alt="Опять двойка">
-        <img class="header__square-pic">
+      <h1 class="header__title">Научиться учиться</h1>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+        <a class="header__link link" href="#"> Узнать &#8594;</a>
+      </p>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка">
+      <div class="header__square-pic"></div>
     </header>
     <main>
       <!-- Блок description -->
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -35,7 +36,7 @@
             Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
         </section>
         <!-- Блок digits -->
         <section class="digits">
@@ -82,7 +83,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее&#8594</a>
+        <a class="feynman__link" href="#">Подробнее &#8594;</a>
       </section>
       <!-- Блок kaufman -->
       <section class="kaufman">
@@ -95,49 +96,50 @@
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">2</h3>
-            <p class="table__text">Сосредоточьтесь на каком-то одном навыке.</p>
+            <p class="table__text table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">3</h3>
-            <p class="table__text"> Определите целевой уровень мастерства.</p>
+            <p class="table__text table__text_theme_dark"> Определите целевой уровень мастерства.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">4</h3>
-            <p class="table__text">Разбейте навык на элементы.</p>
+            <p class="table__text table__text_theme_dark">Разбейте навык на элементы.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">5</h3>
-            <p class="table__text">Приготовьте всё необходимое для занятий.</p>
+            <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">6</h3>
-            <p class="table__text">Устраните препятствия для занятий.</p>
+            <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">7</h3>
-            <p class="table__text">Выделите специальное время для занятий.</p>
+            <p class="table__text table__text_theme_dark">Выделите специальное время для занятий.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">8</h3>
-            <p class="table__text">Создайте быстрые петли обратной связи.</p>
+            <p class="table__text table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
           </div>
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">9</h3>
-            <p class="table__text">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+            <p class="table__text table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </div> 
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">10</h3>
-            <p class="table__text">Уделяйте внимание количеству и скорости.</p>
+            <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
-          <div class="kaufman__triangle"g alt="Синий треугольник"></div>
+        </div>  
+        <div class="kaufman__triangle"></div>        
       </section>
     </main>
     <!-- Блок footer -->
     <footer class="footer">
       <div class="footer__columns">
-      <div class="footer__column footer__column_content_copyright">
-        <div class="logo logo__place_footer"></div>
-        <p class="footer__author">&copy Stasy Gam</p>
+        <div class="footer__column footer__column_content_copyright">
+          <div class="logo logo_place_footer"></div>
+        <p class="footer__author">&copy; Stasy Gam</p>
       </div>
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
