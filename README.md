@@ -31,8 +31,3 @@
 
     Чеклист 1;
     Чеклист 2.
-
-Ссылка на сайт:
-
-https://github.com/yatsan98/how-to-learn
-
